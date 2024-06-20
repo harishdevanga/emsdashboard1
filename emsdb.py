@@ -14,8 +14,8 @@ if fl is not None:
     st.write(filename)
     df = pd.read_excel(filename)
 else:
-    os.chdir(r"D:\python\working_folder\emsdashboard")
-    df = pd.read_excel("EMSdashboard2.xlsx")
+    #os.chdir(r"D:\python\working_folder\emsdashboard")
+    df = pd.read_excel("data/EMSdashboard2.xlsx")
 
 
 col1, col2 = st.columns((2))
